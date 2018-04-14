@@ -2,6 +2,7 @@ body{
   overflow-y: scroll;
   min-height: 100%;
   position: relative;
+  font-family: 'Nunito', sans-serif;
 }
 .row{ margin: 0}
 nav.navbar{
@@ -25,7 +26,16 @@ nav .navbar-header{
 }
 .navbar-nav.navbar-right{
   height: 100%;
-  padding: 30px;
+  padding: 26px;
+  font-size: 20px;
+}
+.navbar-nav.navbar-right a.nav-link{
+
+  color: #fff;
+}
+.navbar-nav.navbar-right a.nav-link:hover{
+
+  color: #ccc;
 }
 .banner{
   text-align: center;
@@ -93,6 +103,21 @@ nav .navbar-header{
     border-color: #204d74;
 
 }
+.glyphicon.glyphicon-chevron-left,
+.glyphicon.glyphicon-chevron-right{
+  color: red;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background-image: -webkit-linear-gradient(left,rgba(255,255,255,.5) 0,rgba(255,255,255,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(255,255,255,.5) 0,rgba(255,255,255,.0001) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.5)),to(rgba(255,255,255,.0001)));
+    background-image: linear-gradient(to right,rgba(255,255,255,.5) 0,rgba(255,255,255,.0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+
 /*** Footer ***/
 .footer{
   width: 100%;
