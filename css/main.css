@@ -50,7 +50,7 @@ nav .navbar-header{
   width: auto;
 }
 .tag{
-  background-color: #ccc;
+  background-color: #32bdd4;
   color: #fff;
   padding: 3px 10px;
 }
@@ -67,7 +67,32 @@ nav .navbar-header{
 .categoria{
   padding: 10px 0;
 }
+.noticias-contenedor{
+  padding-top: 100px;
+}
+.seccion-mision{
+  padding:  50px 10px;
+}
 
+.seccion-mision h1{
+  color: red;
+}
+.seccion-mision h2{
+  padding-top: 30px;
+  color: green;
+}
+.btn-primary {
+    background-color: #653da7;
+    color: #fff;
+    border-color: #204d74;
+}
+.btn-primary:hover {
+
+    color: #fff;
+    background-color: #653dd7;
+    border-color: #204d74;
+
+}
 /*** Footer ***/
 .footer{
   width: 100%;
@@ -96,4 +121,10 @@ nav .navbar-header{
 }
 textarea{
   resize: none;
+}
+@media (max-width: 800px) {
+  .navbar-header .navbar-brand img{
+    padding: 5px;
+    width: 40%;
+  }
 }
